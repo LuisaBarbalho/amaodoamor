@@ -1,0 +1,66 @@
+.about {
+  height: 100vh;
+  background: var(--primmary_0);
+  padding-top: 50px;
+}
+
+.about-content {
+  padding: 0;
+  margin: 0;
+  height: calc(100vh - 95.56px - 50px);
+  display: grid;
+  grid-template-columns: [col1] 18% [col2] 27% [col3] 2% [col4] 35% [col5] 18% [end];
+  grid-template-rows: [row1] 5% [row2] 90% [row3] 5% [end];
+}
+
+.avatars-logo {
+  width: 100%;
+  grid-column-start: col2;
+  grid-column-end: col3;
+  grid-row-start: row2;
+  grid-row-end: row3;
+}
+.text {
+  padding-top: 60px;
+  grid-column-start: col4;
+  grid-column-end: col5;
+  grid-row-start: row2;
+  grid-row-end: row3;
+  position: relative;
+}
+
+.text-title {
+  position: relative;
+  z-index: 1000;
+  font-family: "Saldina";
+  font-size: 40px;
+}
+
+.text-description {
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.title-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 82px;
+  left: 15%;
+}
+
+.title-box {
+  width: 450px;
+  height: 60px;
+  position: absolute;
+  background-color: var(--secondary_2);
+  z-index: 1;
+}
+
+/*
+grid-template-columns: [col1] 10% [col2] 30% [col3] 50% [col4] 10% [end];
+  grid-template-rows: [row1] 5% [row2] 95% [row3] 5% [end];
+  */

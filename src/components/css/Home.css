@@ -1,0 +1,58 @@
+
+
+.home {
+  height: calc(100vh - 116px);
+  background-image: url("../../assets/images/home/products.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--secondary_1);
+  height: 312px;
+  width: 706px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  border: solid var(--grey_2) 3px;
+  font-family: "Glacial Indifference";
+  height: 285px;
+  width: 675px;
+  color: var(--grey_2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 10.5px;
+  margin: 0;
+  line-height: 50px;
+}
+
+.line {
+  height: 0px;
+  width: 498px;
+  position: relative;
+  border-bottom: solid var(--grey_2) 1px;
+  background: #cccaca;
+}
+
+#subtitle {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10.5px;
+  padding-bottom: 15px;
+  margin: 0;
+  line-height: 25px;
+}

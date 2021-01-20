@@ -1,0 +1,69 @@
+.title{
+    font-family: 'Glacial Indifference';
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.title-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#upper-dark{
+
+}
+
+#upper-light{
+
+}
+
+.lower{
+    text-align: right;
+    width: auto;
+    z-index: 1000;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+}
+
+.box-container#about{
+    right: 31px;
+}
+
+.box-container#products{
+    right: 76px;
+}
+
+.box{
+    width: 240px;
+    height: 43px;
+    position: absolute;
+    background-color: var(--primmary_3);
+}
+
+#lower-dark{
+    color: white;
+
+}
+
+#lower-light{
+
+    
+}
+
+#lower-darker{
+    
+
+}

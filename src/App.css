@@ -1,0 +1,24 @@
+:root {
+    --primmary_0: #fffcfc;
+    --primmary_1: #f7bebe;
+    --primmary_2: #f19095;
+    --primmary_3: #d76b71;
+    --primmary_4: #9f3d41;
+    --primmary_transparent: rgba(247, 190, 190, 0.33);
+  
+    
+    --secondary_1: #fefde9;
+    --secondary_2: #fdd68b;
+  
+    
+    --grey_1: #fefde9;
+    --grey_2: #534844;
+  
+    
+    --green_1: #c2deae;
+    --green_2: #a0c391;
+    --green_3: #6e8f60;
+
+    padding: 0;
+    margin: 0;
+}

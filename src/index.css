@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: local('Glacial Indifference'), local('GlacialIndifference'), 
+    url('./fonts/glacial-indifference.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saldina';
+  src: local('Saldina'), local('Saldina'), 
+    url('./fonts/Saldina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Basic Sans';
+  src: local('Basic Sans SF'), local('BasicSansSF'), 
+    url('./fonts/basic-sans-sf.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Basic Sans Bold';
+  src: local('Basic Sans SF Bold'), local('BasicSansSFBold'), 
+    url('./fonts/basic-sans-sf-bold.ttf') format('truetype');
+}

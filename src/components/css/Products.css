@@ -1,0 +1,88 @@
+.products {
+  height: 100vh;
+  background: white;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.products-cards {
+    display: grid;
+    grid-template-columns: [col1] 250px [col2] 50px [col3] 200px [col4] 50px [col5] 200px [col6] 50px [col7] 250px [end];
+    grid-template-rows: [row1] 210px [row2] 90px [row3] 210px [end];
+    position: relative;
+}
+
+.products-card{
+    position: relative;
+}
+
+#croche {
+  grid-column-start: col1;
+  grid-column-end: col3;
+  grid-row-start: row1;
+  grid-row-end: row3;
+}
+
+#macrame {
+  grid-column-start: col2;
+  grid-column-end: col5;
+  grid-row-start: row2;
+  grid-row-end: end;
+}
+
+#decoupage {
+  grid-column-start: col4;
+  grid-column-end: col7;
+  grid-row-start: row1;
+  grid-row-end: row3;
+}
+
+#diverse {
+  grid-column-start: col6;
+  grid-column-end: end;
+  grid-row-start: row2;
+  grid-row-end: end;
+}
+
+.products-box {
+    position: absolute;
+}
+
+#p-b-left {
+    z-index: 0;
+    top: 40px;
+    left: -100%;
+    width: 670px;
+    height: 150px;
+    background-color: var(--primmary_transparent);
+}
+
+#p-b-right {
+    z-index: 0;
+    bottom: -15%;
+    right: -30%;
+    width: 1300px;
+    height: 190px;
+    background-color: var(--primmary_transparent);
+}
+
+#img-flower-yellow {
+    width: 130px;
+    bottom: -10px;
+    right: 820px;
+}
+
+#img-flower-pink {
+    width: 200px;
+    top: 200px;
+    right: 0;
+}
+

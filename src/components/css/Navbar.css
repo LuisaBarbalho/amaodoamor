@@ -1,0 +1,55 @@
+.navbar {
+  background-color: var(--secondary_1);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 116px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-insta {
+    height: 19px;
+    width: 19px;
+    padding-left: 77px;
+}
+
+.nav-shop {
+    height: 26px;
+    width: 26px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav-content {
+  margin: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-item {
+  display: inline;
+  font-family: 'Glacial Indifference';
+  margin-left: 45px;
+  color: var(--grey_2);
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
